@@ -1,6 +1,7 @@
-html{
+html {
   font-size: 62.5%;
 }
+
 body {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
@@ -227,6 +228,20 @@ h6 {
 
 }
 
+/* #map {
+  z-index: 3;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  border-width: 0px;
+  margin: 0px;
+  left: 0px;
+  top: 0px;
+  touch-action: pan-x pan-y;
+
+} */
+
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0);
@@ -343,18 +358,21 @@ section {
   font-size: 26px;
   color: #173b6c;
 }
+
 .btn {
-  background-color :#286ef2;
+  background-color: #286ef2;
   color: #ffffff;
   font-size: 1.5rem;
   border-radius: 2.5rem;
 }
-.btn:hover{
-  background-color :#286ef2;
+
+.btn:hover {
+  background-color: #286ef2;
   opacity: 0.9;
   color: #ffffff;
 
 }
+
 .about .content ul {
   list-style: none;
   padding: 0;
